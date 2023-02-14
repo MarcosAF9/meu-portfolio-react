@@ -4,6 +4,7 @@ import img3 from '../../assets/cronometro.png';
 import img4 from '../../assets/paginaLogin.png';
 import img5 from '../../assets/nlwEsports.png';
 import img6 from '../../assets/consulta-cep.png';
+import img7 from '../../assets/jazz-school.png';
 
 export const projects = [
     {
@@ -47,5 +48,12 @@ export const projects = [
         "linkCodigo": "https://github.com/MarcosAF9/consulta-de-cep",
         "image": img6,
         "id": 6
+    },
+    {
+        "title": "Site responsivo feito com HTML e CSS",
+        "linkProjeto": "https://jazz-school-responsivo.vercel.app/",
+        "linkCodigo": "https://github.com/MarcosAF9/Jazz-school-responsivo/tree/main",
+        "image": img7,
+        "id": 7
     }
 ]
