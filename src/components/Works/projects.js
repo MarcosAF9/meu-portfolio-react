@@ -29,9 +29,9 @@ export const projects = [
         "id": 3
     },
     {
-        "title": "Página de Login Rocketseat",
-        "linkProjeto": "https://login-page-rocketseat.vercel.app/",
-        "linkCodigo": "https://github.com/MarcosAF9/loginPageRocketseat",
+        "title": "Página de Login com localStorage",
+        "linkProjeto": "https://login-com-localstorage.vercel.app/",
+        "linkCodigo": "https://github.com/MarcosAF9/Login-com-localstorage",
         "image": img4,
         "id": 4
     },
