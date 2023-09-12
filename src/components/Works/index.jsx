@@ -1,19 +1,13 @@
-import foto1 from '../../assets/social-linking.png';
-import foto2 from '../../assets/calculadoraJs.png';
-import foto3 from '../../assets/siteParallax.png';
-import foto4 from '../../assets/cronometro.png';
-import foto5 from '../../assets/paginaLogin.png';
-import foto6 from '../../assets/nlwEsports.png';
-import styles from './Works.module.css';
-import WorkCards from '../WorkCards';
-import { projects } from './projects.js';
+import styles from "./Works.module.css";
+import WorkCards from "../WorkCards";
+import { projects } from "./projects.js";
 
 function Works() {
-    return (
-        <div className={styles.works} id="works">
-            <h2>Meus Projetos</h2>
-            <div className={styles.list}>
-                {/* <div className={styles.cards}>
+  return (
+    <div className={styles.works} id="works">
+      <h2>Meus Projetos</h2>
+      <div className={styles.list}>
+        {/* <div className={styles.cards}>
                     <h3>Tema escuro / Tema claro</h3>
                     <a href="https://social-linking-kappa.vercel.app/" target="_blank">
                         <img src={foto1} alt="projeto" />
@@ -56,15 +50,18 @@ function Works() {
                     </a>
                 </div> */}
 
-                
-                    {projects.map(projeto => (
-                        <WorkCards image={projeto.image} linkProjeto={projeto.linkProjeto} linkCodigo={projeto.linkCodigo} title={projeto.title} key={projeto.id} />
-                    ))}
-                
-
-            </div>
-        </div>
-    )
+        {projects.map((projeto) => (
+          <WorkCards
+            image={projeto.image}
+            linkProjeto={projeto.linkProjeto}
+            linkCodigo={projeto.linkCodigo}
+            title={projeto.title}
+            key={projeto.id}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default Works;
