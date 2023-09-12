@@ -1,6 +1,6 @@
 import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import styles from './Contact.module.css';
+import styles from "./Contact.module.css";
 
 function Contact() {
   return (
@@ -16,13 +16,13 @@ function Contact() {
           <p>marcos_falcade1@hotmail.com</p>
         </div>
         <div className={styles.line}>
-          <a href="https://www.linkedin.com/in/marcos-vinicios-arcie-falcade-a727b4262/" target="_blank">
+          <a href="https://www.linkedin.com/in/marcos-falcade/" target="_blank">
             <BsLinkedin className={styles.mailIcon} />
           </a>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Contact;

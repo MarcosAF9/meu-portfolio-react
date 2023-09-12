@@ -1,91 +1,90 @@
 .header {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
 }
 
 .navbar {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 ul li {
-    list-style: none;
-    margin: 1rem;
+  list-style: none;
+  margin: 1rem;
 }
 
-ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
+.links {
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-ul li a:hover {
-    border-bottom: 3px solid #f58723;
+.links:hover {
+  border-bottom: 3px solid #f58723;
 }
 
 .changer {
-    display: flex;
-    margin-right: 1.555rem;
-    position: absolute;
-    right: 0;
-    top: 1rem;
+  display: flex;
+  margin-right: 1.555rem;
+  position: absolute;
+  right: 0;
+  top: 1rem;
 }
 
 .changer .menu {
-    cursor: pointer;
-    display: none;
+  cursor: pointer;
+  display: none;
 }
 
 .closed .close {
-    display: none;
+  display: none;
 }
 
-
 @media (max-width: 850px) {
-    .header {
-        justify-content: space-between;
-    }
+  .header {
+    justify-content: space-between;
+  }
 
-    .navbar {
-        display: none;
-    }
+  .navbar {
+    display: none;
+  }
 
-    .navbar.active {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        inset: 0;
-        background: #d4c9ad;
-    }
+  .navbar.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    background: #d4c9ad;
+  }
 
-    ul {
-        margin: 0 auto;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 1rem;
-    }
+  ul {
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
 
-    ul li {
-        margin-block: 2rem;
-    }
+  ul li {
+    margin-block: 2rem;
+  }
 
-    ul li a {
-        font-size: 20px;
-        color: rgb(40, 36, 36);
-        font-weight: bolder;
-    }
+  ul li a {
+    font-size: 20px;
+    color: rgb(40, 36, 36);
+    font-weight: bolder;
+  }
 
-    .changer .menu {
-        display: block;
-    }
+  .changer .menu {
+    display: block;
+  }
 
-    .closed .close {
-        display: block;
-    }
+  .closed .close {
+    display: block;
+  }
 }
