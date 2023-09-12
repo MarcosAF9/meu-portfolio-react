@@ -1,4 +1,4 @@
-import { BsLinkedin, BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { HashLink as Link } from "react-router-hash-link";
 import foto from "../../assets/foto-perfil-bg.png";
 import styles from "./Main.module.css";
@@ -19,6 +19,9 @@ function Main() {
                 target="_blank"
               >
                 <BsLinkedin className={styles.icon} />
+              </a>
+              <a href="https://github.com/MarcosAF9" target="_blank">
+                <BsGithub className={styles.icon} />
               </a>
             </div>
 
