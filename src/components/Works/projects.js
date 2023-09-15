@@ -7,6 +7,7 @@ import img6 from "../../assets/consulta-cep.png";
 import img7 from "../../assets/jazz-school.png";
 import img8 from "../../assets/site-filmes.png";
 import img9 from "../../assets/shopping-cart.png";
+import img10 from "../../assets/pesquisando-temperaturas.png";
 
 export const projects = [
   {
@@ -71,5 +72,12 @@ export const projects = [
     linkCodigo: "https://github.com/MarcosAF9/ShoppingCart",
     image: img9,
     id: 9,
+  },
+  {
+    title: "Pesquisando temperaturas",
+    linkProjeto: "https://pesquisando-temperaturas.vercel.app/",
+    linkCodigo: "https://github.com/MarcosAF9/pesquisando-temperaturas",
+    image: img10,
+    id: 10,
   },
 ];
